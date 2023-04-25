@@ -1,0 +1,25 @@
+.header{
+    font-family: "TTNorms";
+}
+.topnav{
+    display: flex;
+    justify-content: start;
+}
+.logo{
+    padding-left: 50px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    padding: 5px 20px;
+}
+ul li a{
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    /* align-self: end; */
+    justify-self: end;
+}
