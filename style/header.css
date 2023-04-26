@@ -1,7 +1,10 @@
 .header{
     font-family: "TTNorms";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.topnav{
+.nav-bar{
     display: flex;
     align-items: center;
 }
@@ -20,5 +23,15 @@ ul li a{
     padding: 0 1rem;
 }
 .nav-btn{
-
+    border: none;
+    list-style-type: none;
+    width: 130px;
+    height: 30px;
+}
+.nav-btn a {
+    color: #081D43;
+    background-color: rgba(221, 148, 148, 0.658);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
 }
