@@ -1,0 +1,26 @@
+.works{
+    text-align: center;
+    margin-top: 10rem;
+}
+.works__items{
+    color: #6C7890;
+}
+.works__title{
+    color: #081D43;
+}
+.works-content-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.item{
+    display: block;
+    width: 20%;
+    color: #6C7890;
+}
+.works-content-title{
+    color: #081D43;
+}
+.main-img{
+    margin-top: 2.5rem;
+}
