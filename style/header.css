@@ -1,15 +1,18 @@
 .header{
+    padding-top: 20px;
     font-family: "TTNorms";
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1.5rem;
 }
 .nav-bar{
     display: flex;
     align-items: center;
 }
 .nav-logo{
-    /* padding-left: 50px; */
+    margin-right: 1.5rem;
+    color: #081D43;
 }
 .menu{
     list-style-type: none;
@@ -22,16 +25,17 @@ ul li a{
     color: #081D43;
     padding: 0 1rem;
 }
-.nav-btn{
-    border: none;
-    list-style-type: none;
-    width: 130px;
-    height: 30px;
+ul li a:hover{
+    text-decoration: 2px #0050c8c4 underline;
 }
-.nav-btn a {
-    color: #081D43;
-    background-color: rgba(221, 148, 148, 0.658);
+.button a {
+    color: #ffffff;
+    background-color: #0050c8c4;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
+    transition: .2s;
+}
+.button a:hover{
+    background-color: #0050c8;
 }
