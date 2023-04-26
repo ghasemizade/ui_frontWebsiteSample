@@ -3,18 +3,22 @@
 }
 .topnav{
     display: flex;
-    justify-content: start;
+    align-items: center;
 }
-.logo{
-    padding-left: 50px;
+.nav-logo{
+    /* padding-left: 50px; */
 }
-ul{
-    display: flex;
-}
-ul li{
+.menu{
     list-style-type: none;
-    padding: 5px 20px;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
 }
 ul li a{
     text-decoration: none;
+    color: #081D43;
+    padding: 0 1rem;
+}
+.nav-btn{
+
 }
