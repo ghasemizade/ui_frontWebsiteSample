@@ -18,8 +18,3 @@ ul li{
 ul li a{
     text-decoration: none;
 }
-.button{
-    display: flex;
-    /* align-self: end; */
-    justify-self: end;
-}
