@@ -1,3 +1,41 @@
 .newsletter{
     background-color: #2860F0;
+    padding: 3rem 0;
+    color: #fff;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.newsletter__btn{
+    background-color: #2860F0;
+    border: none;
+    outline: none;
+    padding: .5rem 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+.newsletter__btn:hover{
+    cursor: pointer;
+}
+.newsletter-email{
+    background-color: #fff;
+    flex-basis: 20rem;
+    display: flex;
+    justify-content: space-between;
+    padding: .4rem;
+    border-radius: 0.4rem;
+}
+.newsletter__text{
+    border: none;
+    outline: none;
+}
+.left{
+    color: #6C7890;
+}
+.right{
+    font-weight: 600;
 }
