@@ -13,7 +13,6 @@
 }
 .comments-content{
     display: flex;
-    
 }
 .comment-box{
     background-color: #fff;
@@ -22,8 +21,8 @@
     justify-content: end;
     align-self: center;
     margin: 1.2rem;
-    border-radius: .3rem;
-
+    border-radius: .5rem;
+    flex-basis: 20rem;
 }
 .comment-body{
     font-size: .8rem;
@@ -32,6 +31,7 @@
     text-align: left;
     line-height: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
+    min-height: 15rem;
     height: 8rem;
 }
 .comment-footer{
@@ -46,7 +46,16 @@
 }
 .comment-logo{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    
+}
+.comments-container{
+    max-width: 70rem;
+    margin: 3.5rem auto;
+    justify-content: center;
+}
+.logo-item{
+    display: block;
+    margin-right: 5.5rem;
 }

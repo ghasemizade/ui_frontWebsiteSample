@@ -1,0 +1,20 @@
+.portfolio__title{
+    color: #6C7890;
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+.portfolio{
+    text-align: center;
+    padding: 2rem 0;
+}
+.portfolio-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.portfolio-image{
+    flex-basis: 23rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
